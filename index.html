@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My test page</title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css?famiily=Open+Sans" rel="stylesheet" /> -->
+</head>
+
+<body>
+
+    <div class="side-bar">
+        <nav class="navigation">
+            <img id="logo" src="images/logo.svg" alt="Logo" />
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                    <a href="#apply">Apply</a>
+                    <a href="#meet-us">Meet Us</a>
+                    <a href="#donate">Donate</a>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <section id="about">
+            <img id="school" src="images/burbank.jpg" alt="Front of School" />
+            <h1>About Luther Burbank First Generation Scholarship</h1>
+            <p>This scholarship has been developed as an endowment by IB students from Burbank Class of 2001 as a
+                celebration of
+                their 20th reunion. This $1,000 scholarship will be awarded to one student to provide financial support
+                and
+                mentorship to first-generation college students. Successful applicants will be highly motivated with a
+                strong
+                desire to succeed and agreeable to participating in the financial literacy program this group of alumni
+                intends
+                to provide as well as the SAISD Foundation remote mentor program.
+            </p>
+        </section>
+        <section id="apply">
+            <h1>Who Can Apply</h1>
+            <p>Top 25% of graduating class from Burbank High School; minority; first-generation
+                college student
+                with the intent to attend a four-year college/university; and demonstrated need.</p>
+            <h1>How To Apply</h1>
+            <p>Applications are accepted through the link below</p>
+            <button onclick="window.location='https://www.saisdfoundation.com/';">Apply</button>
+
+        </section>
+        <section id="meet-us">
+            <img id="group-pic" src="images/group_pic.jpg" alt="Group Picture" />
+            <h1>Past Winners</h1>
+            <div class="wrapper-winners">
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="Peyton Gamez" />
+                    <h2>Peyton Gamez</h2>
+                    <p>This cooll person won the scholarship for the class of blah blah blah. This person went on to do
+                        this thing all becuase
+                        of this scholarship. Fun cool facts about this person include how cool they are.</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/chris_mendez.png" alt="Chris Mendez" />
+                    <h2>Chris Mendez</h2>
+                    <p>This cooll person won the scholarship for the class of blah blah blah. This person went on to do
+                        this thing all becuase of this scholarship. Fun cool facts about this person include how cool
+                        they are.</p>
+                </div>
+
+            </div>
+            <h1>Scholarship Team</h1>
+            <div class="wrapper-team">
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="" />
+                    <h2>Ana Sanchez</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/chris_mendez.png" alt="" />
+                    <h2>Liza Garcia</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="" />
+                    <h2>Gregory Kitchen</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="" />
+                    <h2>Enrique Loera</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/chris_mendez.png" alt="" />
+                    <h2>Vanessa Gonzalez</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="" />
+                    <h2>Martin Vegara</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="" />
+                    <h2>Ahmad Khazee</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/chris_mendez.png" alt="" />
+                    <h2>David Gomez</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="" />
+                    <h2>Maria Mendoza-Reyna</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/peyton_gamez.png" alt="" />
+                    <h2>David DeLeon</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+                <div class="cell">
+                    <img class="person" src="images/chris_mendez.png" alt="" />
+                    <h2>Ralphie Baylor</h2>
+                    <p>Founder of Scholarship</p>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="donate">
+            <h1>Donate</h1>
+            <P>Donations to grow this scholarship can be made by clicking this link and noting Luther Burbank First
+                Generation
+                Scholarship in the comments box.</P>
+            <!-- <div class="btn btn-primary"><i class="icon icon-cart"></i> Donate</div> -->
+
+            <button onclick="window.location='https://www.saisdfoundation.com/donate/';">Donate</button>
+
+
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <form class="cf validate" id="form-contact">
+
+                <input class="email-field field" id="email" name="email" placeholder="Email" required="required"
+                    title="Enter a valid email address" type="email" value="">
+
+
+                <input class="field" id="subject" name="subject" placeholder="Subject" title="Enter Subject" type="text"
+                    value="">
+
+                <textarea class="message-field field" cols="20" id="message" name="message" placeholder="Message"
+                    required="required" rows="5"></textarea>
+
+                <input type="submit" value="Submit" id="input-submit" class="btn btn-primary"><i
+                    class="icon icon-cart"></i>
+
+                <pre id="output"></pre>
+
+                <div id="myDiv"></div>
+            </form>
+
+        </section>
+    </div>
+    <script src="../scripts/main.js"></script>
+
+
+</body>
+
+</html>
