@@ -105,6 +105,19 @@ p {
     left: 30px;
 }
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
 #school {
     display: block;
     max-width: 100%;
