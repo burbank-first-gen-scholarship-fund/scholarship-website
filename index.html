@@ -32,8 +32,6 @@
                 <div class="mySlides fade">
                     <img id="school" src="images/BurbankFacade.png" alt="Front of School" />
                 </div>
-            </div>
-            <div class="slideshow-container">
                 <div class="mySlides fade">
                     <img id="school" src="images/OG_Burbank.png" alt="Front of Old School building" />
                 </div>
@@ -49,7 +47,9 @@
                 slides[i].style.display = "none";  
               }
               slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
+              if (slideIndex > slides.length) {
+                  slideIndex = 1
+                  }    
 
               slides[slideIndex-1].style.display = "block";  
               setTimeout(showSlides, 2000); // Change image every 2 seconds
