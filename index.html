@@ -28,17 +28,42 @@
     <div class="main-content">
         
         <section id="about">
-            <img id="school" src="images/BurbankFacade23.png" alt="Front of School" />
-            <h1>About Luther Burbank First Generation Scholarship</h1>
-            <p>This scholarship has been developed as an endowment by IB students from Burbank Class of 2001 as a
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img id="school" src="images/BurbankFacade23.png" alt="Front of School" />
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img id="school" src="images/OG_Burbank.png" alt="Front of Old School building" />
+                </div>
+            </div>
+            <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+
+                  slides[slideIndex-1].style.display = "block";  
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+            
+            <h1>Luther Burbank First Generation Scholarship</h1>
+            <p>This scholarship was developed as an endowment by students from Burbank Class of 2001 as a
                 celebration of
-                their 20th reunion. This $1,000 scholarship will be awarded to one student to provide financial support
+                their 20th reunion. This scholarship is awarded annually to one student to provide financial support
                 and
-                mentorship to first-generation college students. Successful applicants will be highly motivated with a
+                mentorship to a first-generation college student. Successful applicants are highly motivated with a
                 strong
-                desire to succeed and agreeable to participating in the financial literacy program this group of alumni
-                intends
-                to provide as well as the SAISD Foundation remote mentor program.
+                desire to succeed.
             </p>
         </section>
         
